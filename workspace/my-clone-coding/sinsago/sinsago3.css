@@ -1,0 +1,48 @@
+/* 초등 중등 고등의 탭 위치가 변경됌 */
+#container {position:relative; width:960px; margin:0 auto;}
+/* 메인탭의 분리된 이미지가 합쳐지는 css */
+.mainVisual {position: relative; margin: 0 auto; overflow:hidden;}
+.mainVisual ul.slide1 li > a{display: block; text-align: center;}
+.mainVisual .navi {position: absolute; bottom: 10px; left:50%; margin-left:-481px;}
+.mainVisual .navi a {position: relative; display: inline-block; width: 11px; height: 11px; margin:0 2px; background-color: rgba(0,0,0,0.2);  border-radius: 50%}
+.mainVisual .navi a.on {background-color: #ffc600;}
+.mainVisual .slidearea {position:absolute; top:0; right:50%; bottom: 0; z-index:5; width: 340px; margin-right:-480px; border-radius: 35px 0 35px 0; background-color: #fff; text-align: center;  box-sizing:border-box;}
+.mainVisual .slidearea li {text-align:center;}
+.mainVisual .slidearea .bx-controls .bx-pager {position:absolute; z-index:60; bottom:16px; left:57%; margin-left:-114px; text-align:center;}
+.mainVisual .slidearea .bx-controls .bx-pager-item {display:inline-block; margin-left:10px;}
+.mainVisual .slidearea .bx-controls .bx-pager-item:first-child {margin-left:0;}
+.mainVisual .slidearea .bx-controls .bx-pager-item a { display:inline-block; width:11px; height:11px; background-color: rgba(0,0,0,0.2);  border-radius: 50%; text-indent:-99999px;}
+.mainVisual .slidearea .bx-controls .bx-pager-item a.active {background-color: #ffc600;}
+.mainVisual .main-go-event {position: absolute; top:0; left:100%; padding: 19px 14px 15px; background-color: #62c638; color: #fff; line-height: 1.1; 
+
+  /* font-family */
+font-family: 'Noto Sans KR',sans-serif; font-weight: 500; font-size:15px;  border-radius: 0 0 15px 0;}
+.mainVisual .main-go-event .fa {margin-top: 7px; font-size: 9px;}
+
+/* 정답과해설, 듣기mp3, 도서학습 자료, 정오표, 교과서자료 탭 */
+.mainStudy-wrap {position:relative; background: #62c638;}
+.mainStudy-data {position:relative; z-index:2; width: 960px; margin: 0 auto; overflow: hidden; }
+.mainStudy-data .list-main-study {text-align: center;}
+.mainStudy-data .list-main-study li {display: inline-block; margin:0 10px;line-height: 1.25;}
+.mainStudy-data .list-main-study li a {display: block; padding: 19px 9px; font-family: 'malgun gothic','맑은고딕',sans-serif; font-size: 17px; font-weight: bold; color: #fff;}
+.mainStudy-data .list-main-study li a:hover,
+.mainStudy-data .list-main-study li a:focus {color: #FFFC23}
+
+
+/* 고등 중등 초등의 탭들을 직접 관여하는 css */
+.mainBook {position: relative;padding: 30px 0;/* text-align: center; */}
+.mainBook .tab {display: inline-block;}
+.mainBook .tab li {width: 80px;}
+.mainBook .tab li + li {margin-left: 10px}
+.mainBook .tab li a { padding: 6px 0; border: 1px solid #d6d6d6; border-radius: 13px 0 13px 0; font-family: 'malgun gothic','맑은고딕',sans-serif; font-size: 15px; font-weight: bold; color: #333; }
+.mainBook .tab li a.on {background-color: #4694ec; border-color: #4694ec; color: #fff;}
+
+/* 초등 중등 고등의 탭 위치가 변경됌 */ 
+.tab {*zoom:1; position:relative;top:1px} 
+.tab:after {content:"";display:block;clear:both;} 
+.tab li {float:left; width:83px;}
+.tab a {display:block; padding:9px 0; border:1px solid #d3d3d3; border-left:0; text-align:center}
+.tab a.on {display:block; border:1px solid #3a9015; background:#58b530}
+.tab .fst a {border-left:1px solid #d3d3d3}
+.tab .fst a.on {border:1px solid #3a9015}
+.tab .tab-long {width:138px}

@@ -1,0 +1,294 @@
+.top-ad {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*, :after, :before, legend, td, th {
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+body, button, input, select, textarea {
+  font-size: 14px;
+  color: #333;
+}
+
+body {
+  margin: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --swiper-theme-color: #007aff;
+}
+
+html, button, input, select, textarea {
+  font-family: -apple-system, BlinkMacSystemFont, AppleSDGothicNeo, "Apple SD Gothic Neo", Helvetica, "Noto Sans KR", "malgun gothic", "맑은 고딕", sans-serif;
+}
+
+html {
+  touch-action: manipulation;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*, :after, :before, legend, td, th {
+  padding: 0;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*, :after, :before, legend, td, th {
+  padding: 0;
+}
+
+.ad-arr {
+  position: relative;
+  text-align: center;
+  transition: margin 0.4s linear 0s;
+  background-color: rgb(255, 255, 255);
+}
+
+.ad-font {
+  display: block;
+  font-size: 14px;
+  line-height: 38px;
+  height: 38px;
+  color: rgb(51, 51, 51);
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.ad-font1 {
+  color: rgb(95, 0, 128);
+}
+
+.button1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 38px;
+  height: 38px;
+}
+
+.one-day {
+  overflow: hidden;
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+}
+
+.basket-arr {
+  position: relative;
+  min-height: 44px;
+}
+
+.x-pin-arr {
+  height: 100%;
+  top: 0;
+  left: 5px;
+  position: absolute;
+  z-index: 99;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.x-button {
+  width: 43px;
+  height: 43px;
+}
+
+.x-button1 {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NCIgaGVpZ2h0PSI0NCIgdmlld0JveD0iMCAwIDQ0IDQ0Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGc+CiAgICAgICAgICAgIDxnPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTAgMEg0NFY0NEgweiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUuMDAwMDAwLCAtNDQuMDAwMDAwKSB0cmFuc2xhdGUoNS4wMDAwMDAsIDQ0LjAwMDAwMCkiLz4KICAgICAgICAgICAgICAgIDxnIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjEuNSI+CiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTEyLjc3NiAxMi41MzdMLjI3Ni4wMzdNLjI2NSAxMi41MzNMMTIuNzc2LjAyMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUuMDAwMDAwLCAtNDQuMDAwMDAwKSB0cmFuc2xhdGUoNS4wMDAwMDAsIDQ0LjAwMDAwMCkgdHJhbnNsYXRlKDE2LjAwMDAwMCwgMTYuMDAwMDAwKSIvPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K);
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-background-position: center;
+  background-position: center;
+}
+
+.basket-flex {
+  width: 100%;
+  height: 100%;
+  padding-left: unset;
+  padding-right: unset;
+  padding-inline: 49px;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  -webkit-transform: translateZ(0px);
+  -moz-transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  transform: translateZ(0px);
+  text-align: center;
+  color: #333;
+}
+
+.basket-font {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  pointer-events: auto;
+  padding: 0 25px;
+}
+
+.address-arr {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 44px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.address-font {
+  font-size: 16px;
+  line-height: 20px;
+  color: #5f0080;
+}
+
+.change-button {
+  display: block;
+  padding: 0 10px;
+  text-align: center;
+  overflow: hidden;
+  width: 52px;
+  height: 38px;
+  border-radius: 4px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 6px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.empty-place {
+  min-height: 82px;
+  -webkit-transition: height .4s linear;
+  transition: height .4s linear;
+}
+
+.line {
+  height: 8px;
+  background: #f4f4f4;
+}
+
+main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100vh - 230px);
+  padding-bottom: calc(env(safe-area-inset-bottom));
+  font-size: 16px;
+  color: #b5b5b5;
+  line-height: 24px;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 3px;
+}
+
+.footer-arr {
+  padding: 8px 12px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 10;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 14%, #fff 100%, #fff 100%);
+}
+
+.button-co {
+  display: block;
+  padding: 0 10px;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height: 52px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #ddd;
+  border: 0 none;
+}
+
+.button-co-font {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+}

@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'Pretendard Variable';
+  /* src: url('PretendardVariable.woff2') format('woff2'); */
+  src: url('Pretendard-Regular.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, div, h1, h2, h3, h4, h5, h6, input, p, select, span, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard Variable';
+  font-size: 14px;
+  color: #333;
+  background-color: #f8f8f8;
+  line-height: 1.42857143;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+#wrap {
+  margin: 0 auto;
+  padding: 20px 0 80px;
+  width: 1060px;
+  position: relative;
+  max-width: 1060px;
+}
+
+hr {
+  width: 100vw;
+  margin-bottom: 38px;
+  margin-left: calc(-50vw + 50%);
+  background-color: #e1e2e3;
+  height: 1px;
+  margin: 0;
+  border: none;
+}
+
+div.button-wrap {
+  margin-bottom: 12px;
+}
+
+button.book-mark-short-cut-button {
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+  color: #36f;
+}
+
+button > svg#icon1 {
+  width: 11px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+button > svg#icon2 {
+  width: 10px;
+  margin: 2px 0 0 2px;
+  height: 16px;
+}
+
+button.book-mark-short-cut-button span {
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+}
+
+
+ul.job-list {
+  margin: -10px;
+  padding: 0;
+}
+
+ul.job-list li {
+  width: 22.8%;
+  padding: 10px;
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+ul div.job-card > a {
+  display: block;
+}
+
+header.image {
+  background-image: url(https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fcompany%2F23588%2Fpuwuztrd34ykbzbz__400_400.jpeg&w=400&q=75);
+  padding-bottom: 75%;
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.1);
+}
+
+div.body {
+  padding: 14px 0;
+}
+
+button.book-mark-button {
+  background: none;
+  padding: 8px 6px;
+  width: 42px;
+  height: 42px;
+  top: 0;
+  right: 0;
+  flex-direction: row;
+  z-index: 1;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border-radius: 3px;
+  position: absolute;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+}
+
+.body .feedback-container button {
+  position: relative;
+}
+
+div.job-card-position {
+  text-overflow: ellipsis;
+  position: relative;
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  max-height: 2.4em;
+  overflow: hidden;
+  text-align: left;
+  word-break: break-word;
+}
+
+div.job-card-company-name {
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  text-align: left;
+  word-break: break-word;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+div.feedback-result {
+  border: 1px solid #00aead;
+  color: #00aead;
+  border-radius: 2px;
+  background-color: #fff;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  height: 19px;
+  line-height: 19px;
+  margin-top: 4px;
+  padding: 0 5px;
+}
+
+div.feedback-content {
+  color: #333;
+  font-size: 12px;
+  font-weight: 400;
+  min-height: 40px;
+  height: auto;
+  line-height: normal;
+  position: absolute;
+  padding: 11px 12px;
+  background: #fff;
+  border: 1px solid #999;
+  z-index: 1;
+  display: none;
+  white-space: nowrap;
+  top: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+div.job-card-company-location {
+  font-weight: 400;
+  color: #999;
+  font-size: 14px;
+  line-height: normal;
+  text-align: left;
+  word-break: break-word;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 10px; 
+}
+
+span.address-dot {
+  margin: 0 3px;
+  top: -4px;
+  position: relative;
+}
+
+div.reward {
+  margin-top: 10px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  word-break: break-word;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

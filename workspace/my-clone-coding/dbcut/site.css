@@ -1,0 +1,51 @@
+
+.tb-search-a {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  width: 430px;
+  margin-left: -215px;
+}
+
+#hd_wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 0;
+  height: 90px;
+  zoom: 1;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  font-size: 0.75em;
+  font-family: 'Malgun Gothic', dotum, sans-serif;
+  background: #fff;
+}
+
+#hd_sch #sch_submit {
+  height: 37px;
+  line-height: 0;
+  border: 0;
+  background: #fff;
+  color: #0C71C3;
+  width: 50px;
+  float: left;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;}
+  
+.fa-search:before {
+  content: "\f002";}
+
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;}

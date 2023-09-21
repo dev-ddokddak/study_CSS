@@ -1,0 +1,92 @@
+body {
+  min-width: 1280px;
+  margin: 0;
+  padding: 0;
+  font-family: '돋움',Dotum,'굴림',Gulim,AppleGothic,sans-serif;
+  font-size: 11px;
+  color: #666;
+  line-height: 18px;
+}
+
+.top-menu {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #d6d6d6;}
+
+#header {
+  position: relative;
+  padding-top: 30px;
+}
+
+.top-menu .inner {
+  width: 960px;
+  margin: 0 auto;
+  padding: 7px 0;
+}
+
+.top-menu .left {
+  float: left;
+}
+
+.top-menu .right {
+  float: right;
+}
+
+.logo-area {
+  position: relative;
+  text-align: center;
+}
+
+.main-logo {
+    margin-top: 21px;
+}
+
+div {
+  display: block;
+}
+
+.top-menu .inner {
+  width: 960px;
+  margin: 0 auto;
+  padding: 7px 0;
+}
+
+.mainBook .mainTab .tab-book-text {
+  display: block;
+  margin-top: 12px;
+  font-family: 'malgun gothic','맑은고딕',sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: -0.5px;}
+
+.mainStudy-data {
+  position: relative;
+  z-index: 2;
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, table, tr, th, td, button, textarea, select {
+  margin: 0;
+  padding: 0;}
+
+  /* ul의 점이 사라졌다!!! */
+* {
+  margin: 0;
+  padding: 0;
+}
+

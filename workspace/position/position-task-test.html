@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>position 실습</title>
+  <style>
+    div.img {
+      background-image: url("http://koreaitacademy.com/renewal2021/img/tch/teacher007.png");
+      /* background-size: 좌우 상하 */
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 249px;
+      height: 322px;
+      position: absolute;
+      left: 378px;
+      top: 45px;
+      z-index: 1;
+    }
+    #flag {
+      width: 183px;
+      position: absolute;
+      top: 107px;
+      left: 88px;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <img style="background-image: none;" src="background.png">
+  <div class="img">
+    <img id="flag" src="red-flag.png">
+  </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>position 실습</title>
+  <style>
+    div.img {
+      background-image: url("http://koreaitacademy.com/renewal2021/img/tch/teacher007.png");
+      /* background-size: 좌우 상하 */
+      background-size: 100%; 
+      background-repeat: no-repeat;
+      width: 260px;
+      height: 322px;
+      margin: 0 auto;
+      margin-left: 320px;
+      margin-top: -327px;
+      position: absolute;
+      -index: 1;
+    }
+    #hat { 
+      width: 168px;
+      margin: -77px;
+      margin-left: 34px;
+      z-index: 2;
+
+    }
+    #wand {
+      width: 183px;
+      margin-top: 31px;
+      margin-left: 88px;
+      z-index: 3;
+
+    }
+    #dust {
+      width: 442px;
+      margin-top: -384px;
+      margin-left: 111px;
+      z-index: 4;
+    }
+  </style>
+</head>
+<body>
+  <img style="background-image: none;" src="ooo.png">
+  <div class="img">
+    <img id="hat" src="halloween-wizard-hat.png">
+    <img id="wand" src="magic-wand1.png">
+    <img id="dust" src="star-powder.png">
+  </div>
+  
+  
+</body>
+</html>
